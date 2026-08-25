@@ -80,16 +80,14 @@ export function SiteNavbar() {
             ))}
           </nav>
           <div className="mt-4 flex flex-col gap-2 border-t border-ink/10 pt-4">
-            <Link
-              href="#login"
-              onClick={() => setOpen(false)}
-              className="rounded-lg px-3 py-2.5 text-center text-base font-medium text-ink/80 hover:bg-lavender"
-            >
-              Log in
-            </Link>
             <Button className="rounded-full bg-electric text-white hover:bg-electric-dark">
-              <Link href="#get-app" onClick={() => setOpen(false)}>
-                Get the app
+              <Link
+                href="https://wa.me/96566730742?text=Hi!%20I%27d%20like%20to%20book%20a%20delivery."
+                target="_blank"
+                rel="noopener"
+                onClick={() => setOpen(false)}
+              >
+                Book on WhatsApp
               </Link>
             </Button>
           </div>
