@@ -43,14 +43,14 @@ export function SiteNavbar() {
         </nav>
 
         <div className="hidden items-center gap-3 lg:flex">
-          <Link
-            href="#login"
-            className="rounded-md px-2 py-1 text-sm font-medium text-ink/70 transition-colors hover:text-ink focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-electric focus-visible:ring-offset-2"
-          >
-            Log in
-          </Link>
           <Button className="rounded-full bg-electric px-5 text-white hover:bg-electric-dark">
-            <Link href="#get-app">Get the app</Link>
+            <Link
+              href="https://wa.me/96566730742?text=Hi!%20I%27d%20like%20to%20book%20a%20delivery."
+              target="_blank"
+              rel="noopener"
+            >
+              Book on WhatsApp
+            </Link>
           </Button>
         </div>
 
