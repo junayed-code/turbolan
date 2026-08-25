@@ -7,6 +7,7 @@
 @theme inline {
   --color-ink: #14132b;
   --color-electric: #2b44ff;
+  --color-electric-foreground: #c7fff7;
   --color-electric-dark: #1b2fcc;
   --color-coral: #ff3d6e;
   --color-yellow: #ffc93c;
@@ -135,7 +136,7 @@
     @apply bg-background text-foreground;
   }
   html {
-    @apply font-sans;
+    @apply font-sans scroll-smooth;
   }
 }
 
