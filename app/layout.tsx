@@ -9,6 +9,12 @@ export const metadata: Metadata = {
   title: "Turbolan – A Fast, On-Demand, Same-Day Delivery Service in Kuwait",
   description:
     "Scale you business with Turbolan. It's a door-to-door, reliable, effortless, same-day local delivery service in Kuwait.",
+  openGraph: {
+    title: "Turbolan – A Fast, On-Demand, Same-Day Delivery Service in Kuwait",
+    description:
+      "Scale you business with Turbolan. It's a door-to-door, reliable, effortless, same-day local delivery service in Kuwait.",
+    images: "/og-image.jpeg",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
