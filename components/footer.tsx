@@ -1,6 +1,7 @@
 import * as React from "react";
 import Link from "next/link";
-import { Download, Zap } from "lucide-react";
+import { Download } from "lucide-react";
+import { LogoMark } from "@/components/ui/logo-mark";
 
 const COMPANY_LINKS = [
   { label: "About us", href: "#" },
@@ -59,9 +60,7 @@ export function Footer() {
               href="/"
               className="flex items-center gap-2 rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-yellow focus-visible:ring-offset-2 focus-visible:ring-offset-ink"
             >
-              <span className="flex h-8 w-8 items-center justify-center rounded-xl bg-white">
-                <Zap className="h-4 w-4 fill-ink text-ink" strokeWidth={2.5} />
-              </span>
+              <LogoMark />
               <span className="font-display text-xl font-semibold tracking-tight">
                 Turbolan
               </span>

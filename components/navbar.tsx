@@ -2,8 +2,9 @@
 
 import * as React from "react";
 import Link from "next/link";
-import { Menu, X, Zap } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { LogoMark } from "@/components/ui/logo-mark";
 
 const NAV_LINKS = [
   { href: "#how-it-works", label: "How it works" },
@@ -95,13 +96,5 @@ export function SiteNavbar() {
         </div>
       )}
     </header>
-  );
-}
-
-function LogoMark() {
-  return (
-    <span className="flex h-8 w-8 items-center justify-center rounded-xl bg-ink">
-      <Zap className="h-4 w-4 fill-yellow text-yellow" strokeWidth={2.5} />
-    </span>
   );
 }
