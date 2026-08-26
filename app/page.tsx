@@ -5,10 +5,12 @@ import { Categories } from "@/components/categories";
 import { Support } from "@/components/support";
 import { BecomeCourier } from "@/components/become-courier";
 import { Footer } from "@/components/footer";
+import { DevelopmentStageAlert } from "@/components/development-stage-alert";
 
 export default function Home() {
   return (
     <main>
+      <DevelopmentStageAlert />
       <SiteNavbar />
       <SiteHero />
       <HowItWorks />
