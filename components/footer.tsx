@@ -85,7 +85,16 @@ export function Footer() {
 
         {/* Bottom bar */}
         <div className="flex flex-col gap-4 border-t border-white/10 py-8 font-mono text-xs text-white/40 sm:flex-row sm:items-center sm:justify-between">
-          <span>© {year} Turbolan, Inc. All rights reserved.</span>
+          <span>
+            © {year} Turbolan, Inc. All rights reserved. Developed by{" "}
+            <a
+              href="https://junayedakbor.vercel.app"
+              target="_blank"
+              className="underline text-lavender"
+            >
+              Junayed Akbor
+            </a>
+          </span>
           <div className="flex flex-wrap gap-x-6 gap-y-2">
             <Link href="#" className="transition-colors hover:text-white/70">
               Terms
