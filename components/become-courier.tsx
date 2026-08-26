@@ -1,7 +1,7 @@
 import { ArrowRight, CheckCircle2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Kicker } from "./ui/kicker";
+import { Kicker } from "@/components/ui/kicker";
 
 const BENEFITS = [
   "Set your own hours — deliver mornings, nights, or whenever works",
@@ -11,7 +11,7 @@ const BENEFITS = [
 ];
 
 const STATS = [
-  { label: "Avg. hourly earnings*", value: "$24/hr" },
+  { label: "Avg. hourly earnings*", value: "1KD/delivery" },
   { label: "Active couriers", value: "15,000+" },
   { label: "Courier rating", value: "4.9★" },
 ];

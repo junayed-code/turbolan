@@ -29,7 +29,7 @@ export function SiteHero() {
 
           <p className="mt-6 max-w-md text-lg text-paper/80">
             Groceries, medicine, gifts, gadgets — whatever the shops nearby have
-            in stock, Zippa picks it up and brings it to your door. One app,
+            in stock, Turbolan picks it up and brings it to your door. One app,
             every category.
           </p>
 
