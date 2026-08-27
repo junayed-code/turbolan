@@ -25,7 +25,7 @@ export function SiteNavbar() {
           className="flex items-center gap-2 rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-electric focus-visible:ring-offset-2"
         >
           <LogoMark />
-          <span className="font-display text-xl font-semibold tracking-tight text-ink">
+          <span className="text-xl font-semibold tracking-tight text-ink">
             Turbolan
           </span>
         </Link>
